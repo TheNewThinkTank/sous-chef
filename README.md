@@ -38,7 +38,6 @@ cobra-cli add mealplan
 for loading YAML files:<br>
 `go get gopkg.in/yaml.v3`
 
-
 ## Tech Stack
 
 - CLI: `Cobra`
