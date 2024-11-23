@@ -13,9 +13,11 @@ type Recipe struct {
 	Instructions string
 }
 
-func ViewRecipe(db *sql.DB, recipe Recipe) {
-	query := ``
-	_, err := db.Exec(query)
+func GetRecipe(db *sql.DB, id int) (Recipe, error) {
+	var recipe Recipe
+	query := `SELECT id, title, description, ingredients, instructions FROM recipes WHERE id = ?`
+	err := db.QueryRow(query, id).Scan(&recipe.ID, &recipe.Title, &recipe.Description, &recipe.Ingredients, &recipe.Instructions)
+	return recipe, err
 }
 
 func AddRecipe(db *sql.DB, recipe Recipe) error {
