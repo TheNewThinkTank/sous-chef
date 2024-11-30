@@ -41,6 +41,7 @@ for loading YAML files:<br>
 ## Tech Stack
 
 - CLI: `Cobra`
+- `Viper` for handling config
 - Database: `SQLite` or `PostgreSQL` for storing data persistently.
 - API Framework: `Gorilla Mux` or `Echo` for building REST APIs (if applicable).
 - Frontend (Optional): Use Go templates or integrate with a frontend framework later.
