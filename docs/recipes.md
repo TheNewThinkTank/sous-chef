@@ -2,16 +2,17 @@
 
 ## Indian
 
-- tandoori chicken
+- Tandoori chicken
+- Vindaloo
 
 ## Thai
 
-- pad thai
-- pad se ew
-- gan kiew wan
+- Pad thai
+- Pad se ew
+- Gan kiew wan
 
-- honey bananas
-- banana leaf sticky rice w. munk beans
+- Honey bananas
+- Banana leaf sticky rice w. munk beans
 
 ## Chinese
 
@@ -19,12 +20,10 @@
 
 ## Italian
 
-- pasta ragout/bolognese
-- ensalata mista
-- bruschetta
+- Pasta ragout/bolognese
+- Ensalata mista
+- Bruschetta
 
 ## Spanish
 
 ## Mexican
-
-
